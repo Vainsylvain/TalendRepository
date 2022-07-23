@@ -1,0 +1,14 @@
+{
+  "itemId" : "_MJtPYAkoEe2YaJc92mUg_A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_1a-YMAkoEe2YaJc92mUg_A",
+    "parameterList" : [ {
+      "id" : "_7Vt4UAkoEe2YaJc92mUg_A",
+      "name" : "DBPATH"
+    }, {
+      "id" : "_7Vt4UQkoEe2YaJc92mUg_A",
+      "name" : "DBNAME"
+    } ]
+  } ]
+}

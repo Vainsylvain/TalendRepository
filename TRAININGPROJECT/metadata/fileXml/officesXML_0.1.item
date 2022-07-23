@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_I81e8AnREe2a951Uw16zxw" name="officesXML" id="_I8034AnREe2a951Uw16zxw" dataPackage="_I81e9gnREe2a951Uw16zxw" XmlFilePath="C:/Programmation/TalendTool/data/in/apiCall/offices.xml" Encoding="UTF-8" fileContent="3C726F6F743E0D0A202020203C6F66666963653E0D0A20202020202020203C6F66666963654E616D653E4C65204772656E61743C2F6F66666963654E616D653E0D0A20202020202020203C616464726573733E332C206176656E756520446F79656E204C6F756973205765696C3C2F616464726573733E0D0A20202020202020203C6C6F63616C6974793E4772656E6F626C653C2F6C6F63616C6974793E0D0A20202020202020203C706F7374616C436F64653E33383030303C2F706F7374616C436F64653E0D0A20202020202020203C6F726967696E3E584D4C3C2F6F726967696E3E0D0A202020203C2F6F66666963653E0D0A202020203C6F66666963653E0D0A20202020202020203C6F66666963654E616D653E5754433C2F6F66666963654E616D653E0D0A20202020202020203C616464726573733E31322C20727565206465206C612046726973653C2F616464726573733E0D0A20202020202020203C6C6F63616C6974793E4772656E6F626C653C2F6C6F63616C6974793E0D0A20202020202020203C706F7374616C436F64653E33383030303C2F706F7374616C436F64653E0D0A20202020202020203C6F726967696E3E584D4C3C2F6F726967696E3E0D0A202020203C2F6F66666963653E0D0A3C2F726F6F743E">
+    <schema xmi:id="_I81e8QnREe2a951Uw16zxw" LimitBoucle="2" AbsoluteXPathQuery="/root/office">
+      <schemaTargets xmi:id="_I81e8gnREe2a951Uw16zxw" RelativeXPathQuery="officeName" TagName="officeName"/>
+      <schemaTargets xmi:id="_I81e8wnREe2a951Uw16zxw" RelativeXPathQuery="address" TagName="address"/>
+      <schemaTargets xmi:id="_I81e9AnREe2a951Uw16zxw" RelativeXPathQuery="locality" TagName="locality"/>
+      <schemaTargets xmi:id="_I81e9QnREe2a951Uw16zxw" RelativeXPathQuery="postalCode" TagName="postalCode"/>
+      <schemaTargets xmi:id="_SAu80AnbEe2a951Uw16zxw" RelativeXPathQuery="origin" TagName="origin"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_I81e9gnREe2a951Uw16zxw" name="default" dataManager="_I81e8AnREe2a951Uw16zxw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_I81e9wnREe2a951Uw16zxw" id="_1t7aEAnQEe2a951Uw16zxw" label="officeXmlSchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I81e-AnREe2a951Uw16zxw" label="officeName" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I81e-QnREe2a951Uw16zxw" label="address" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I81e-gnREe2a951Uw16zxw" label="locality" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_I81e-wnREe2a951Uw16zxw" label="postalCode" length="12" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_x45dsAnaEe2a951Uw16zxw" name="origin" label="origin" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

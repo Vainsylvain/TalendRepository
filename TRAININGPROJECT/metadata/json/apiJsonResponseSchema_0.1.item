@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_1QQ1oQkrEe2YaJc92mUg_A" name="apiJsonResponseSchema" dataPackage="_1QQ1qwkrEe2YaJc92mUg_A" JSONFilePath="C:/Programmation/TalendTool/data/in/apiJsonSchema.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_1QQ1ogkrEe2YaJc92mUg_A" LimitBoucle="50" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_1QQ1owkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.name" TagName="name"/>
+      <schemaTargets xmi:id="_1QQ1pAkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.approxEmployees" TagName="approxEmployees"/>
+      <schemaTargets xmi:id="_1QQ1pQkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.founded" TagName="founded"/>
+      <schemaTargets xmi:id="_1QQ1pgkrEe2YaJc92mUg_A" RelativeXPathQuery="industries[*].type" TagName="type"/>
+      <schemaTargets xmi:id="_1QQ1pwkrEe2YaJc92mUg_A" RelativeXPathQuery="industries[*].name" TagName="name1"/>
+      <schemaTargets xmi:id="_1QQ1qAkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.contactInfo.addresses[*].addressLine1" TagName="addressLine1"/>
+      <schemaTargets xmi:id="_1QQ1qQkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.contactInfo.addresses[*].locality" TagName="locality"/>
+      <schemaTargets xmi:id="_1QQ1qgkrEe2YaJc92mUg_A" RelativeXPathQuery="organization.contactInfo.addresses[*].postalCode" TagName="postalCode"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1QQ1qwkrEe2YaJc92mUg_A" name="default" dataManager="_1QQ1oQkrEe2YaJc92mUg_A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1QQ1rAkrEe2YaJc92mUg_A" id="_WwQFYAkqEe2YaJc92mUg_A" comment="https://apicallei-app.herokuapp.com/" label="jsonSchema">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1rQkrEe2YaJc92mUg_A" label="name" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1rgkrEe2YaJc92mUg_A" label="approxEmployees" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1rwkrEe2YaJc92mUg_A" label="founded" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1sAkrEe2YaJc92mUg_A" label="type" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1sQkrEe2YaJc92mUg_A" label="name1" length="80" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1sgkrEe2YaJc92mUg_A" label="addressLine1" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1swkrEe2YaJc92mUg_A" label="locality" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1QQ1tAkrEe2YaJc92mUg_A" label="postalCode" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
